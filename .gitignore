@@ -1,0 +1,43 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+keystore.json
+**/keystore/**
+*seed*
+*mnemonic*
+*secret*
+
+# Dependencies and package managers
+node_modules/
+.pnpm-store/
+
+# Build and toolchain outputs
+dist/
+build/
+out/
+.cache/
+.next/
+coverage/
+*.tsbuildinfo
+
+# Foundry
+cache/
+broadcast/
+forge-cache/
+
+# Logs
+*.log
+logs/
+
+# OS and IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

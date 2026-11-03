@@ -1,0 +1,14 @@
+{
+  "name": "msbd5017-agent-payments",
+  "private": true,
+  "description": "Agent Payments: On-chain Budget Control for x402-paid APIs (MSBD5017)",
+  "scripts": {
+    "lint": "echo \"not configured yet\"",
+    "test": "echo \"not configured yet\"",
+    "build": "echo \"not configured yet\"",
+    "merchant-api": "echo \"merchant-api not implemented yet (Phase 0)\"",
+    "agent-client": "echo \"agent-client not implemented yet (Phase 0)\"",
+    "contracts:build": "echo \"contracts not implemented yet; Vault starts after Phase 1 baseline\"",
+    "experiments": "echo \"experiments not implemented yet\""
+  }
+}
